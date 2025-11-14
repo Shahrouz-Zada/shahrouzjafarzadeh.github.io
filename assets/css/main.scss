@@ -44,13 +44,18 @@
 
 ;
 /* === Custom Overrides === */
-.site-header {
+.masthead,
+.masthead__inner-wrap {
   background-color: #cbe7ff !important; /* light blue */
 }
 
+/* hamburger button */
 .greedy-nav__toggle {
-  background-color: #cbe7ff !important; /* light blue for hamburger menu */
+  background-color: #cbe7ff !important;
 }
-.site-header .masthead__menu-item a {
+
+/* menu item text color */
+.masthead__menu-item a {
   color: #003366 !important;
 }
+
