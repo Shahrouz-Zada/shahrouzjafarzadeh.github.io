@@ -40,8 +40,14 @@
     "vendor/font-awesome/fontawesome",
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
-.site-header {
-  background-color: #cbe7ff !important;
-}
+
 
 ;
+/* === Custom Overrides === */
+.site-header {
+  background-color: #cbe7ff !important; /* light blue */
+}
+
+.greedy-nav__toggle {
+  background-color: #cbe7ff !important; /* light blue for hamburger menu */
+}
