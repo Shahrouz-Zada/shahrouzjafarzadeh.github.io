@@ -16,7 +16,7 @@ repository  : "Shahrouz-Zada/shahrouzjafarzadeh.github.io"
 
 # Sidebar / Author block
 author:
-  avatar     : "profile.jpg"   # put your headshot at /images/profile.png
+  avatar     : "profile.png"   # put your headshot at /images/profile.png
   name       : "Shahrouz Jafarzadeh"
   pronouns   :                 # optional (e.g., "he/him")
   bio        : "Doctorate in Quantitative Finance. Teaches Financial Modeling, Python for Finance, Data Analysis, and ML/AI for Finance and Marketing. Industry: Natixis & Nexus Horizon."  # keep concise
