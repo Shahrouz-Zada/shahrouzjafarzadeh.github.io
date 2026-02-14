@@ -19,15 +19,15 @@ At the Bachelor’s and Master’s levels, I have taught:
 
 - Differential Equations, Time Series Analysis, and Stochastic Processes
 
-My teaching philosophy goes beyond traditional instruction. I focus on bridging academia and industry through applied, data‑driven projects. This approach is now evolving into a broader Talent Foundry initiative aimed at aligning advanced quantitative education with the realities of today’s job market.
+My teaching philosophy goes beyond traditional instruction. I focus on bridging academia and industry through applied, data‑driven projects. This approach is now evolving into a broader **Talent Foundry initiative** aimed at aligning advanced quantitative education with the realities of today’s job market.
 
 Alongside my academic work, I have worked in industry roles at Natixis and Nexus Horizon, contributing to projects in security management, financial modeling, and quantitative research. Across both academia and industry, I emphasize rigorous modeling, real financial datasets, and practical problem‑solving.
 
 
 
 
-Research Focus
-
+**Research Focus
+**
 My doctoral research in Quantitative Finance examined market antifragility using machine learning and mathematical modeling techniques.
 
 Current research directions include:
