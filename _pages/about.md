@@ -5,22 +5,33 @@ permalink: /
 author_profile: true
 ---
 
-I’m a researcher and instructor in Quantitative Finance, Programming, and Machine Learning / AI applied to Finance and Business.
-I hold a Doctorate in Quantitative Finance, where I explored market antifragility modeling through machine learning and mathematical methods.
+I am an instructor in Quantitative Finance, Programming, and Applied Machine Learning/AI for finance, marketing, and business.
 
-My commitment to academia is driven by a deep passion for applying science, mathematics, and technology  to address real-world problems; particularly in finance. I thrive on transforming complex concepts into accessible, engaging learning experiences through project-based teaching.
+My academic work is driven by a strong  interest in using mathematics, data science, and technology to address real financial and economic problems. In my courses my focus is on turning complex quantitative concepts into clear, structured, and project‑based learning experiences that prepare students for real industry challenges.
 
-In my higher education teaching experience, I have taught Bachelor’s and Master’s-level courses such as:
+At the Bachelor’s and Master’s levels, I have taught:
 
 - Financial Modeling
 
-- Python and Data Analysis for Finance
+- Python and Data Analysis for Finance and Marketing
 
-- Machine Learning and AI for Finance and Marketing
+- Machine Learning and AI for Finance and Business
 
-- Mathematical modules including Differential Equations, Time Series Analysis, and Stochastic Processes
+- Differential Equations, Time Series Analysis, and Stochastic Processes
 
-I aim not only to help students build knowledge and confidence to apply quantitative tools in real-world contexts, but also to bridge academia and industry through practical, data-driven learning.
+My teaching philosophy goes beyond traditional instruction. I focus on bridging academia and industry through applied, data‑driven projects. This approach is now evolving into a broader **Talent Foundry initiative** aimed at aligning advanced quantitative education with the realities of today’s job market.
 
-My professional background includes positions at Natixis and Nexus Horizon, where I contributed to projects ranging from security management to quantitative research.
-Across both teaching and industry work, I emphasize applied problem-solving using real financial data to connect theory, modeling, and practice.
+Alongside my academic work, I have worked in industry roles at Natixis and Nexus Horizon, contributing to projects in security management, financial modeling, and quantitative research. Across both academia and industry, I emphasize rigorous modeling, real financial datasets, and practical problem‑solving.
+
+
+
+
+**Research Focus**
+
+My doctoral research in Quantitative Finance examined market antifragility using machine learning and mathematical modeling techniques.
+
+Current research directions include:
+
+Rolling Fractal Dimension as an Early-Warning Signal for Market Regime Shifts
+
+A Quantitative Antifragility Index for Financial Markets
