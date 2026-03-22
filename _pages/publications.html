@@ -1,36 +1,66 @@
----
-layout: archive
-title: "Publications"
-permalink: /publications/
-author_profile: true
----
+<h2 style="margin-top: 2.5rem; border-bottom: 2px solid #e5e5e5; padding-bottom: 0.4rem;">
+  Research & Working Projects
+</h2>
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<div style="display: grid; grid-template-columns: 1fr; gap: 1.5rem; margin-top: 1.5rem;">
 
-{% include base_path %}
+  <div style="padding: 1.2rem 1.4rem; border: 1px solid #e5e5e5; border-radius: 10px; background: #fafafa;">
+    <h3 style="margin-top: 0; margin-bottom: 0.4rem;">
+      Rolling Fractal Dimension as an Early-Warning Signal for Market Regime Shifts
+    </h3>
+    <p style="margin: 0 0 0.7rem 0; line-height: 1.7;">
+      <strong>Working Paper — In Progress</strong>
+    </p>
+    <p style="margin: 0; line-height: 1.7;">
+      This paper develops the <strong>Rolling Fractal Dimension (RFD)</strong> as a real-time measure of
+      price-path geometric complexity. It investigates whether increases in local irregularity
+      systematically precede volatility spikes, drawdowns, and structural breaks. The framework is
+      benchmarked against standard risk indicators including realized volatility, GARCH-type models,
+      Hurst-based metrics, entropy measures, and change-point detection methods.
+    </p>
+    <p style="margin: 0.8rem 0 0 0; line-height: 1.7;">
+      <strong>Aim:</strong> to provide a simple, interpretable early-warning framework for detecting market regime shifts.
+    </p>
+  </div>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+  <div style="padding: 1.2rem 1.4rem; border: 1px solid #e5e5e5; border-radius: 10px; background: #fafafa;">
+    <h3 style="margin-top: 0; margin-bottom: 0.4rem;">
+      A Quantitative Antifragility Index for Financial Markets
+    </h3>
+    <p style="margin: 0 0 0.7rem 0; line-height: 1.7;">
+      <strong>Research Project — Early Stage</strong>
+    </p>
+    <p style="margin: 0; line-height: 1.7;">
+      This ongoing project aims to construct a unified, data-driven <strong>Antifragility Index</strong>
+      for financial markets. The proposed index combines complexity-based features such as fractal and
+      multifractal measures, long-memory statistics, and recurrence-based diagnostics. Its empirical
+      value is evaluated through predictive frameworks including local projections and logistic hazard
+      models across multiple asset classes, including equities, foreign exchange, and crypto-assets.
+    </p>
+    <p style="margin: 0.8rem 0 0 0; line-height: 1.7;">
+      <strong>Aim:</strong> to build a measurable and interpretable antifragility metric that improves risk forecasting and regime-shift diagnostics.
+    </p>
+  </div>
 
+  <div style="padding: 1.2rem 1.4rem; border: 1px solid #e5e5e5; border-radius: 10px; background: #fafafa;">
+    <h3 style="margin-top: 0; margin-bottom: 0.4rem;">
+      Towards Antifragility in Financial Markets: A Fractal Geometry and Machine Learning Framework
+    </h3>
+    <p style="margin: 0 0 0.7rem 0; line-height: 1.7;">
+      <strong>Doctoral Dissertation</strong>
+    </p>
+    <p style="margin: 0; line-height: 1.7;">
+      This dissertation examined how antifragile behaviour and regime instability can be detected and
+      modelled using data-driven, complexity-based methods. The work integrated fractal and
+      multifractal analysis, recurrence quantification, Hurst-based measures, feature engineering, and
+      machine learning models including LSTM, Random Forest, and SVM.
+    </p>
+    <p style="margin: 0.8rem 0 0 0; line-height: 1.7;">
+      Key findings include strong fractal and multifractal behaviour during crisis periods, evidence that
+      rolling fractal measures rise ahead of volatility transitions, and improved predictive performance
+      from fractal-enhanced machine learning models in turbulent regimes. This dissertation provides the
+      theoretical and empirical foundation for the ongoing projects above.
+    </p>
+  </div>
 
-
+</div>
