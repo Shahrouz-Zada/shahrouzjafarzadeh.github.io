@@ -1,26 +1,33 @@
----
----
+/* === Custom Overrides === */
 
-@import "minimal-mistakes";
-
-/* Top header / navigation bar background */
-.masthead {
-  background-color: #ffffff !important;
-  border-bottom: 1px solid #e5e5e5;
-}
-
-/* The light blue strip behind/around the top area */
-body {
-  background-color: #ffffff;
-}
-
-/* Optional: navigation link colors */
-.greedy-nav a {
-  color: #0b3d6d !important;
-}
-
-/* Optional: hamburger menu background */
+/* Entire top navigation area */
+.masthead,
+.masthead__inner-wrap,
+.greedy-nav,
 .greedy-nav .visible-links,
 .greedy-nav .hidden-links {
-  background: #ffffff !important;
+  background-color: #cbe7ff !important;
+}
+
+/* Navigation link text */
+.masthead__menu-item a,
+.greedy-nav a,
+.site-title {
+  color: #003366 !important;
+}
+
+/* Hamburger button */
+.greedy-nav__toggle {
+  background-color: #cbe7ff !important;
+  color: #003366 !important;
+  border: none !important;
+}
+
+/* Optional: remove any strange borders/shadows */
+.masthead {
+  border-bottom: 1px solid #b7d8f5 !important;
+}
+
+.greedy-nav {
+  border: none !important;
 }
