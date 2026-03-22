@@ -17,9 +17,10 @@ Alongside my academic work, I have worked in industry roles at Natixis and Nexus
 
 
 
+<h2 style="margin-top: 2rem; border-bottom: 2px solid #e5e5e5; padding-bottom: 0.4rem;">
+    Research Focus
+  </h2>
 
-**Research Focus
-**
 My doctoral research in Quantitative Finance examined market antifragility using machine learning and mathematical modeling techniques.
 
 Current research directions include:
