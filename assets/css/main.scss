@@ -1,31 +1,71 @@
+---
+---
+
+/*
+ * This file controls what is imported from /_sass
+ *
+ * Note that the files are processed in the order they are imported, so they are partly
+   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ */
+
+@import
+    "vendor/breakpoint/breakpoint",
+
+    "themes",
+    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+
+    "include/mixins",
+    "vendor/susy/susy",
+
+    "layout/reset",
+    "layout/base",
+
+    "include/utilities",
+    "layout/tables",
+    "layout/buttons",
+    "layout/notices",
+    "layout/masthead",
+    "layout/navigation",
+    "layout/footer",
+    "syntax",
+
+    "layout/forms",
+
+    "layout/page",
+    "layout/archive",
+    "layout/sidebar",
+    "layout/json_cv",
+
+    "vendor/font-awesome/fontawesome",
+    "vendor/font-awesome/solid",
+    "vendor/font-awesome/brands"
+;
+
 /* === Custom Overrides === */
 
-/* Entire top navigation area */
 .masthead,
 .masthead__inner-wrap,
 .greedy-nav,
 .greedy-nav .visible-links,
 .greedy-nav .hidden-links {
-  background-color: #cbe7ff !important;
+  background-color: #eaf3fb !important;
 }
 
-/* Navigation link text */
 .masthead__menu-item a,
 .greedy-nav a,
 .site-title {
-  color: #003366 !important;
+  color: #163a63 !important;
 }
 
-/* Hamburger button */
 .greedy-nav__toggle {
-  background-color: #cbe7ff !important;
-  color: #003366 !important;
+  background-color: #eaf3fb !important;
+  color: #163a63 !important;
   border: none !important;
 }
 
-/* Optional: remove any strange borders/shadows */
 .masthead {
-  border-bottom: 1px solid #b7d8f5 !important;
+  border-bottom: 1px solid #d6e4f0 !important;
 }
 
 .greedy-nav {
