@@ -1,65 +1,26 @@
 ---
 ---
 
-/*
- * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
- */
+@import "minimal-mistakes";
 
-@import
-    "vendor/breakpoint/breakpoint",
-
-    "themes",
-    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
-
-    "include/mixins",
-    "vendor/susy/susy",
-
-    "layout/reset",
-    "layout/base",
-
-    "include/utilities",
-    "layout/tables",
-    "layout/buttons",
-    "layout/notices",
-    "layout/masthead",
-    "layout/navigation",
-    "layout/footer",
-    "syntax",
-
-    "layout/forms",
-
-    "layout/page",
-    "layout/archive",
-    "layout/sidebar",
-    "layout/json_cv",
-
-    "vendor/font-awesome/fontawesome",
-    "vendor/font-awesome/solid",
-    "vendor/font-awesome/brands"
-
-
-;
-/* === Custom Overrides === */
-.masthead,
-.masthead__inner-wrap {
-  background-color: #cbe7ff !important; /* light blue */
+/* Top header / navigation bar background */
+.masthead {
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #e5e5e5;
 }
 
-/* hamburger button */
-.greedy-nav__toggle {
-  background-color: #cbe7ff !important;
+/* The light blue strip behind/around the top area */
+body {
+  background-color: #ffffff;
 }
 
-/* menu item text */
-.masthead__menu-item a {
-  color: #003366 !important;
+/* Optional: navigation link colors */
+.greedy-nav a {
+  color: #0b3d6d !important;
 }
 
-/* inner header area */
-.masthead__inner-wrap {
-  background-color: #cbe7ff !important;
+/* Optional: hamburger menu background */
+.greedy-nav .visible-links,
+.greedy-nav .hidden-links {
+  background: #ffffff !important;
 }
