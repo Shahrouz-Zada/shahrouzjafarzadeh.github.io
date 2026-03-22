@@ -1,33 +1,23 @@
-/* === Custom Overrides === */
-
-/* Entire top navigation area */
 .masthead,
 .masthead__inner-wrap,
 .greedy-nav,
 .greedy-nav .visible-links,
 .greedy-nav .hidden-links {
-  background-color: #cbe7ff !important;
+  background-color: #10263f !important;
 }
 
-/* Navigation link text */
 .masthead__menu-item a,
 .greedy-nav a,
 .site-title {
-  color: #003366 !important;
+  color: #ffffff !important;
 }
 
-/* Hamburger button */
 .greedy-nav__toggle {
-  background-color: #cbe7ff !important;
-  color: #003366 !important;
+  background-color: #10263f !important;
+  color: #ffffff !important;
   border: none !important;
 }
 
-/* Optional: remove any strange borders/shadows */
 .masthead {
-  border-bottom: 1px solid #b7d8f5 !important;
-}
-
-.greedy-nav {
-  border: none !important;
+  border-bottom: 1px solid #0b1b2d !important;
 }
