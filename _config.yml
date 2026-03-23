@@ -6,7 +6,8 @@
 # Basic Site Settings
 locale      : "en-US"
 site_theme  : "default"       # options: "default", "air"
-title       : "Shahrouz Jafarzadeh — Quantitative Finance"
+title       : "Shahrouz Jafarzadeh"
+bio         : "Quantitative Finance"
 title_separator: "-"
 name        : &name "Shahrouz Jafarzadeh"
 description : &description "Academic portfolio — Quantitative Finance, Risk Modeling, Data Science"
@@ -21,7 +22,7 @@ author:
   pronouns   :                 # optional (e.g., "he/him")
   bio        : "Doctorate in Quantitative Finance. Teaches Financial Modeling, Python for Finance, Data Analysis, and ML/AI for Finance and Marketing. Industry: Natixis & Nexus Horizon."  # keep concise
   location   : "France"        # <<< EDIT ME if you'd like city: "Paris, France"
-  employer   : "Nexus Horizon" # <<< EDIT ME if needed
+  employer   : "QuantaFoundry" # <<< EDIT ME if needed
   uri        :
   email      : "contact@shahrouzjafarzadeh.com"  # <<< EDIT ME
 
