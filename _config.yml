@@ -6,8 +6,9 @@
 # Basic Site Settings
 locale      : "en-US"
 site_theme  : "default"       # options: "default", "air"
-title       : "Shahrouz Jafarzadeh"
-bio         : "Quantitative Finance"
+author:
+  name   : "Your Name"
+  bio    : "Quantitative Finance"
 title_separator: "-"
 name        : &name "Shahrouz Jafarzadeh"
 description : &description "Academic portfolio — Quantitative Finance, Risk Modeling, Data Science"
