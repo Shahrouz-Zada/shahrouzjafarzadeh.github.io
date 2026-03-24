@@ -2,7 +2,7 @@
 
   default:
   name        : "Shahrouz Jafarzadeh"
-  uri         : "https://www.shahrouzjafarzadeh.com"
+  url         : "https://www.shahrouzjafarzadeh.com"
   email       : "contact@shahrouzjafarzadeh.com"
   bio         : "Quantitative Finance"
   avatar      : "/images/profile.png"
