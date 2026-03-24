@@ -1,6 +1,6 @@
 # Authors
 
-default:
+  default:
   name        : "Shahrouz Jafarzadeh"
   uri         : "https://www.shahrouzjafarzadeh.com"
   email       : "contact@shahrouzjafarzadeh.com"
