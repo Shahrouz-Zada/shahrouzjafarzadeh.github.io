@@ -1,18 +1,9 @@
 # Authors
 
-Name Name:
-  name        : "Name Name"
-  uri         : "https://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "/assets/images/profile.png"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+Your Name:
+  name        : "Shahrouz Jafarzadeh"
+  uri         : "https://www.shahrouzjafarzadeh.com"
+  email       : "your@email.com"
+  bio         : "Quantitative Finance"
+  avatar      : "profile.png"
+  employer    : "Instructor and Independent Researcher"
