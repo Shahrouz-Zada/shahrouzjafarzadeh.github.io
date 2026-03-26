@@ -20,7 +20,7 @@ author:
   name        : "Shahrouz Jafarzadeh"
   avatar      : "profile.png"
   pronouns   :                 # optional (e.g., "he/him")
-  bio        : "Doctorate in Quantitative Finance. Teaches Financial Modeling, Python for Finance, Data Analysis, and ML/AI for Finance and Marketing. Industry: Natixis & Nexus Horizon."  # keep concise
+  bio        : "Doctorate in Quantitative Finance. Teaches Financial Modeling, Python for Finance and Marketing, Data Analysis, and ML/AI for Finance and Marketing. Industry: Natixis & Nexus Horizon."  # keep concise
   location   : "France"        # <<< EDIT ME if you'd like city: "Paris, France"
   employer   : "QuantaFoundry" # <<< EDIT ME if needed
   uri        :
