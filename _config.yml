@@ -5,13 +5,13 @@
 
 # Basic Site Settings
 locale      : "en-US"
-site_theme  : "default"       # options: "default", "air"
+site_theme  : "default"       
 Title       : "Shahrouz Jafarzadeh"
 bio         : "Quantitative Finance"
 title_separator: "-"
 name        : &name "Shahrouz Jafarzadeh"
 description : &description "Academic portfolio — Quantitative Finance, Risk Modeling, Data Science"
-url         : "https://shahrouzjafarzadeh.com"       # keep until you connect your custom domain
+url         : "https://shahrouzjafarzadeh.com"       
 baseurl     : ""                                     # do not change
 repository  : "Shahrouz-Zada/shahrouzjafarzadeh.github.io"
 
@@ -21,10 +21,10 @@ author:
   avatar      : "profile.png"
   pronouns   :                 # optional (e.g., "he/him")
   bio        : "Doctorate in Quantitative Finance. Teaches Financial Modeling, Python for Finance and Marketing, Data Analysis, and ML/AI for Finance and Marketing.<br><strong>Industry:</strong> Natixis & Nexus Horizon."  
-  location   : "France"        # <<< EDIT ME if you'd like city: "Paris, France"
-  employer   : "QuantaFoundry" # <<< EDIT ME if needed
+  location   : "France"        
+  employer   : "QuantaFoundry" 
   uri        :
-  email      : "contact@shahrouzjafarzadeh.com"  # <<< EDIT ME
+  email      : "contact@shahrouzjafarzadeh.com"  
 
   # Academic profiles (add only what you have)
   academia      :
@@ -44,7 +44,7 @@ author:
 
   # Social (add only what you use)
   bluesky       :             
-  linkedin      : "https://www.linkedin.com/in/shahrouz-jafarzadeh/"   # <<< EDIT ME (just handle or full URL)
+  linkedin      : "https://www.linkedin.com/in/shahrouz-jafarzadeh/"  
   mastodon      :
   medium        :
   twitter       :               # X/Twitter handle (no @)
