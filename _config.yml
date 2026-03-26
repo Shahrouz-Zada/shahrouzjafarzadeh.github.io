@@ -38,13 +38,13 @@ author:
   scopus        :
 
   # Dev / repos
-  github        : "Shahrouz-Zada"
+  github        : "https://github.com/Shahrouz-Zada"
   kaggle        :
   stackoverflow :
 
   # Social (add only what you use)
   bluesky       :             
-  linkedin      : "your-linkedin-handle"   # <<< EDIT ME (just handle or full URL)
+  linkedin      : "https://www.linkedin.com/in/shahrouz-jafarzadeh/"   # <<< EDIT ME (just handle or full URL)
   mastodon      :
   medium        :
   twitter       :               # X/Twitter handle (no @)
